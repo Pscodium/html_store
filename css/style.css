@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+
+header{
+    padding:2px 0;
+}
+
+
+.logo{
+    position: absolute;
+    width: 40%;
+    top: -10px;
+}
+
+
+.menu{   
+    position: absolute;
+    padding-top: 50px;
+    width: 80%;
+    text-align: right;
+    cursor: pointer;
+}
+
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;  
+}
+
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+
+.extras{
+    position: absolute;
+    bottom: -800px;
+    right: -800px;
+    width: 1600px;
+    height: 1500px;
+    border-radius: 50%;
+    background-color: #5e5240;
+}
+
+
+.back{
+    display: block;
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+}
+
+.back img{
+    width: 100%;
+}
+
+
+
+.socialmedia{
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    cursor: pointer;
+
+    
+}
+
+
+.socialmedia img{
+    width: 30px;
+    display: block;
+    margin: 20px 0;
+}
+
+
+.texto-sobre{
+    position: relative;
+    margin-top: 100px;
+    top: 200px;
+    
+}
+
+.texto-sobre h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 700px;
+    font-family: sans-serif;
+}
+
+.texto-sobre button{
+    border: 0;
+    background: #a22e2e;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+
